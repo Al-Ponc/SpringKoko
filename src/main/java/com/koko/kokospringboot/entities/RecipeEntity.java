@@ -24,6 +24,8 @@ public class RecipeEntity {
     @Column(columnDefinition = "LONGTEXT")
     private String desarrolloReceta;
     private String imgReceta;
+    @Column(columnDefinition = "LONGTEXT")
+    private String ingredientesReceta;
 
     //@Column (Aqui va una FK: name= "categoriaId")
 

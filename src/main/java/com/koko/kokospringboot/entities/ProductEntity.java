@@ -25,6 +25,8 @@ public class ProductEntity {
     private Integer precioProducto;
     private String imgProducto;
     private String categoriaProduct;
+    @Column(columnDefinition = "LONGTEXT")
+    private String fichaProducto;
     // (Aqui va una FK: name= "categoriaId")
     @JsonBackReference
     @ManyToOne
