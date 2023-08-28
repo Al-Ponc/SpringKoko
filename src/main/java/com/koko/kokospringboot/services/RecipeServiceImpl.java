@@ -38,6 +38,7 @@ public class RecipeServiceImpl implements RecipeService {
             receta.setDesarrolloReceta(recipeEditar.getDesarrolloReceta());
             receta.setImgReceta(recipeEditar.getImgReceta());
             receta.setIngredientesReceta(recipeEditar.getIngredientesReceta());
+            
             return recipeRepository.save(receta);
         }
         return null;
